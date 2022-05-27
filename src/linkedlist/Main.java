@@ -8,6 +8,13 @@ public class Main {
         list.insertFirst(12);
         list.insertLastWithTail(99);
         list.insertLastWithTail(100);
+        list.insert(200, 3);
+        list.display();
+        System.out.println(list.deleteFirst());
+        list.display();
+        System.out.println(list.deleteLast());
+        list.display();
+        System.out.println(list.delete(2));
         list.display();
     }
 }
