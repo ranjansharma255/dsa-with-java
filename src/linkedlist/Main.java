@@ -16,5 +16,6 @@ public class Main {
         list.display();
         System.out.println(list.delete(2));
         list.display();
+        System.out.println(list.find(10));
     }
 }

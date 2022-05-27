@@ -104,15 +104,15 @@ public class LinkedList {
         }
         return node;
     }
-    public Node find(int value) {
+    public int find(int value) {
         Node node = head;
-        while(node != null){
-            if (node.value == value) {
-                return node;
+        for (int i = 0; i < size; i++) {
+            if(node.value == value) {
+                return i;
             }
             node = node.next;
         }
-        return null;
+        return -1;
     }
 
     // display
